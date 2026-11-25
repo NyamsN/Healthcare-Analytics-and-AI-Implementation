@@ -1,0 +1,6 @@
+# Raw data contains synthetic patient names and addresses: never commit it
+data/raw/*
+!data/raw/.gitkeep
+.ipynb_checkpoints/
+__pycache__/
+.DS_Store
