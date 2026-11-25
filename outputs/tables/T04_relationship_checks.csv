@@ -1,0 +1,8 @@
+check,result
+encounters.PATIENT found in patients,100.0%
+encounters.PAYER found in payers,100.0%
+encounters.ORGANIZATION found in organizations,100.0%
+procedures.ENCOUNTER found in encounters,100.0%
+procedures.PATIENT equals its encounter's PATIENT,100.0%
+patients with at least one encounter,100.0%
+encounters with at least one procedure,52.6%

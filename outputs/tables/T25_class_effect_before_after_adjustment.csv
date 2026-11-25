@@ -1,0 +1,6 @@
+class_vs_ambulatory,class_only_pct,adjusted_pct,ci_low,ci_high,p
+Emergency,-9.25,157.98,86.89,256.12,0.0
+Inpatient,258.61,492.73,199.03,1074.92,0.0
+Outpatient,-27.01,-26.86,-36.64,-15.56,0.0
+Urgent care,2.13,76.46,43.04,117.69,0.0
+Wellness,140.52,22.57,0.62,49.31,0.04

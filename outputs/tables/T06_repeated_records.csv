@@ -1,0 +1,7 @@
+measure,value
+Patients,974
+Median encounters per patient,14
+Mean encounters per patient,28.6
+Maximum encounters for one patient,1381
+Share of all encounters from the 10 most frequent patients,20.6%
+Patients with one encounter only,120

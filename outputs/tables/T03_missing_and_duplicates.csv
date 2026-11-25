@@ -1,0 +1,6 @@
+table,primary_key,pk_duplicates,fully_duplicated_rows,columns_with_missing
+encounters,Id,0,0,"REASONCODE (19,541); REASONDESCRIPTION (19,541)"
+patients (non-identifying columns),Id,0,0,DEATHDATE (820); MARITAL (1)
+procedures,none (no Id column),n/a,0,"REASONCODE (36,945); REASONDESCRIPTION (36,945)"
+payers,Id,0,0,ADDRESS (1); CITY (1); STATE_HEADQUARTERED (1); ZIP (1); PHONE (1)
+organizations,Id,0,0,none

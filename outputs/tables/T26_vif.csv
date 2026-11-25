@@ -1,0 +1,15 @@
+term,VIF
+cls_emergency,1.32
+cls_inpatient,2.65
+cls_outpatient,1.41
+cls_urgentcare,1.37
+cls_wellness,1.41
+procb_1,1.85
+procb_2-3,1.28
+procb_4+,1.53
+payer_group_Private,2.1
+payer_group_Public,1.47
+ageb_45-64,1.82
+ageb_65+,2.85
+GENDER_M,1.13
+log_duration,4.13

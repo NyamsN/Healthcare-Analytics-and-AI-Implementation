@@ -1,0 +1,7 @@
+criterion,evidence,met
+Key figures reconcile with an independent SQL check,9 of 9 metrics match exactly,True
+At least two hypotheses tested with methods matched to data type and assumptions,"4 hypotheses, rank-based tests, effect sizes, Holm correction",True
+Conclusions survive repeated-patient and outlier checks,"All H1–H4 conclusions hold at patient level, trimmed, clustered",True
+At least five relevant visualisations,11 figures saved,True
+No identifying patient information in outputs,Names/addresses never loaded; pseudonymous keys only,True
+Notebook reproduces end-to-end from raw CSVs,Restart & Run All with asserts,True

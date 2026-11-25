@@ -1,0 +1,16 @@
+class_a,class_b,p_holm,median_a,median_b,significant_0.05
+Ambulatory,Outpatient,0.0,573.98,278.58,True
+Ambulatory,Wellness,0.0,573.98,1231.44,True
+Ambulatory,Urgent care,0.0,573.98,142.58,True
+Ambulatory,Emergency,0.937358,573.98,146.18,False
+Ambulatory,Inpatient,0.0,573.98,2355.59,True
+Outpatient,Wellness,0.0,278.58,1231.44,True
+Outpatient,Urgent care,0.00016,278.58,142.58,True
+Outpatient,Emergency,2e-06,278.58,146.18,True
+Outpatient,Inpatient,0.0,278.58,2355.59,True
+Wellness,Urgent care,0.0,1231.44,142.58,True
+Wellness,Emergency,0.0,1231.44,146.18,True
+Wellness,Inpatient,0.937358,1231.44,2355.59,False
+Urgent care,Emergency,0.0,142.58,146.18,True
+Urgent care,Inpatient,0.0,142.58,2355.59,True
+Emergency,Inpatient,0.0,146.18,2355.59,True

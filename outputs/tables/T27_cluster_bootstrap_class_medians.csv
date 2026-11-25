@@ -1,0 +1,7 @@
+class,median,boot_ci_low,boot_ci_high
+ambulatory,573.98,234.72,787.5
+outpatient,278.58,278.58,278.58
+wellness,1231.44,1186.9,1285.47
+urgentcare,142.58,142.58,278.58
+emergency,146.18,146.18,160.93
+inpatient,2355.59,1186.87,10829.73

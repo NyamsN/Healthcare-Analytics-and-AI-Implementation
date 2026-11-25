@@ -1,0 +1,17 @@
+check,result
+Encounter START range,2011-01-02 to 2022-02-05
+2022 is a partial year (last start date),05 Feb 2022
+STOP before START,0
+Zero-length encounters,0
+Encounters longer than 24 h,75
+Longest encounter (days),1872.1
+Encounters starting after the patient's recorded death date,53
+Procedures starting before their encounter START,2060
+Procedures starting after their encounter STOP,22328
+Encounters with TOTAL_CLAIM_COST = 0,89
+Encounters with TOTAL_CLAIM_COST < BASE_ENCOUNTER_COST,89
+Encounters where procedure costs exceed TOTAL_CLAIM_COST,5086
+Encounters where TOTAL = BASE + procedures (±$0.01),30.5%
+Encounters with PAYER_COVERAGE > TOTAL_CLAIM_COST,0
+Encounters with zero PAYER_COVERAGE,"13,586 (48.7%)"
+Distinct BASE_ENCOUNTER_COST values,5

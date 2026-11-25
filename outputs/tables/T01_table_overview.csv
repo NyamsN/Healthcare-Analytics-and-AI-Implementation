@@ -1,0 +1,6 @@
+table,rows,columns,fields_used
+encounters,27891,14,"Id, START, STOP, PATIENT, PAYER, ENCOUNTERCLASS, DESCRIPTION, BASE_ENCOUNTER_COST, TOTAL_CLAIM_COST, PAYER_COVERAGE"
+patients,974,20,"Id, BIRTHDATE, DEATHDATE, GENDER (no names or addresses used)"
+procedures,47701,9,"ENCOUNTER, START, STOP, CODE, DESCRIPTION, BASE_COST"
+payers,10,7,"Id, NAME"
+organizations,1,8,"Id, NAME (context only)"

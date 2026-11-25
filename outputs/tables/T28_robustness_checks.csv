@@ -1,0 +1,8 @@
+hypothesis,check,n,statistic,p_value,effect
+H1,Encounter level (main),27891,"H = 2,025",< 0.001,ε² = 0.072
+H1,Patient level: one median per patient per class,2393,H = 363,< 0.001,ε² = 0.150
+H1,"Top 1% of costs removed (>$37,287)",27612,"H = 2,090",< 0.001,ε² = 0.076
+H1,Three most frequent patients removed,24746,"H = 2,177",< 0.001,ε² = 0.088
+H2,"Patient level: paired Wilcoxon, with vs without procedure (same patient & class)",1217,"W = 635,706",< 0.001,83% of pairs higher with procedure
+H3,Patient level: Wilcoxon on each patient's own duration–cost ρ,458,median ρ = 0.56,< 0.001,85% of patients have ρ > 0
+H4,"Logit with payer fixed effects, patient-clustered SE (insured only)",19084,Wald χ² = 37.7,< 0.001,pseudo-R² 0.041 → 0.812

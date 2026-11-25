@@ -1,0 +1,10 @@
+metric,pandas,sql,match
+total_encounters,27891.0,27891.0,True
+zero_coverage_encounters,13586.0,13586.0,True
+over_24h_encounters,75.0,75.0,True
+total_claim_cost_sum,101514375.52,101514375.52,True
+inpatient_encounters,1135.0,1135.0,True
+encounters_with_procedure,14670.0,14670.0,True
+medicare_avg_total_claim_cost,2167.55,2167.55,True
+encounters_2014,3885.0,3885.0,True
+most_frequent_procedure_count,4596.0,4596.0,True

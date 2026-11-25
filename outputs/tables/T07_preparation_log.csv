@@ -1,0 +1,12 @@
+step,reason,scope
+Read CSVs with utf-8-sig,Byte-order mark corrupted the first column name,All rows
+START/STOP parsed to UTC datetimes,Stored as ISO text,All rows
+duration_h = STOP - START in hours,Needed for H3 and >24 h share,All rows; no negatives
+Payer name and payer_group (Public / Private / No insurance),10 payers too sparse for some tests,All rows
+"n_procedures, has_procedure, proc_cost from procedures.csv",Procedure activity per encounter (H2),"14,670 encounters have ≥1 procedure"
+"age at encounter, age_band",Control variable,From BIRTHDATE
+"zero_coverage, coverage_ratio",Payer coverage analysis (H4),Ratio undefined for 89 zero-cost encounters
+log_cost = ln(1 + TOTAL_CLAIM_COST),Costs are highly right-skewed,Used for regression only
+"Flags: after_death, zero_cost",Inconsistent records kept but flagged,53 and 89 encounters
+Pseudonymous patient_key,Avoid exposing source IDs in outputs,Names/addresses never loaded into the analysis
+No rows removed; no imputation,Missing REASONCODE is structural; outliers are plausible high-cost care,-

@@ -1,0 +1,6 @@
+class_vs_ambulatory,unadjusted_odds_ratio,unadjusted_ci_low,unadjusted_ci_high,unadjusted_p,payer_adjusted_odds_ratio,payer_adjusted_ci_low,payer_adjusted_ci_high,payer_adjusted_p
+Emergency,0.3842,0.2228,0.6624,0.0006,1.4679,0.9085,2.3716,0.1169
+Inpatient,1.1038,0.5489,2.2196,0.7818,2.7668,1.0538,7.2646,0.0388
+Outpatient,1.6406,1.1728,2.295,0.0038,2.8748,1.7879,4.6224,0.0
+Urgent care,0.265,0.1279,0.549,0.0004,0.7898,0.3928,1.5878,0.5077
+Wellness,1.1794,0.8049,1.7282,0.3972,2.8039,1.6275,4.8308,0.0002

@@ -1,0 +1,5 @@
+class,n,pct_exactly_15min,spearman_rho,p_raw,partial_rho_ctrl_procedures,p_partial_raw,p_holm,p_partial_holm
+Ambulatory,12537,0.6337,0.4766,0.0,0.2551,0.0,0.0,0.0
+Outpatient,6300,0.9162,0.3925,0.0,0.4237,0.0,0.0,0.0
+Emergency,2322,0.0,0.1659,0.0,-0.0865,0.0,0.0,0.0001
+Inpatient,1135,0.0,0.1734,0.0,-0.0476,0.1093,0.0,0.1093

@@ -1,0 +1,11 @@
+DESCRIPTION,times_performed,avg_base_cost,median_base_cost,sd_base_cost,total_base_cost
+Admit to ICU (procedure),5,206260.4,199610.0,64838.33,1031302
+Coronary artery bypass grafting,9,47085.89,43374.0,15287.01,423773
+Lumpectomy of breast (procedure),5,29353.0,29349.0,1352.4,146765
+Hemodialysis (procedure),27,29299.56,28314.0,4191.14,791088
+Insertion of biventricular implantable cardioverter defibrillator,4,27201.0,25503.0,8408.32,108804
+Electrical cardioversion,1383,25903.11,25066.0,7088.74,35824002
+Partial resection of colon,7,25229.29,23031.0,7980.03,176605
+Fine needle aspiration biopsy of lung (procedure),1,23141.0,23141.0,0.0,23141
+Percutaneous mechanical thrombectomy of portal vein using fluoroscopic guidance,57,20228.04,19073.0,5604.76,1152998
+Percutaneous coronary intervention,9,19728.0,17748.0,7588.34,177552
